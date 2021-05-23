@@ -1,9 +1,45 @@
+frontend/node_modules/
+frontend/.yarn/
+/.idea
+
+# Byte-compiled / optimized / DLL files
+djangoapp/__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+.env
+
 .DS_Store
 node_modules
 /dist
-
-/tests/e2e/videos/
-/tests/e2e/screenshots/
 
 
 # local env files
